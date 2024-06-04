@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muaaz Fitness</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Carter+One&family=Leckerli+One&display=swap" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Leckerli+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Carter+One&family=Concert+One&family=Leckerli+One&display=swap');
+    body {
+      font-family: "Leckerli One", cursive;
+      margin: 0px;
+      padding: 0px;
+      background: url("/img/J.jpg");
+      
+    }
+    .left {
+      
+      display: inline-block;
+      position: absolute;
+      left: 60px;
+      top: 20px;
+    }
+    .left img{
+        width:90px;
+        padding-left: 20px;
+        filter:invert(100%)
+    }
+    .left div{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        line-height: 26px;
+        font-size: 22px;
+    }
+    .mid{
+        display: block;
+      
+      
+      width: 36%;
+      margin: 29px auto;
+    }
+    .right {
+      position: absolute;
+      right: 70px;
+      top: 34px;
+      display: inline-block;
+      
+      
+      
+      
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 23px;
+    }
+    .navbar li a {
+      text-decoration: none;
+      padding: 3px 23px;
+      color: white;
+    }
+    .navbar li a:hover,.navbar li a:active {
+        /* text-decoration:; */
+        color:white;
+        background-color:darkslateblue;
+        border: 2px solid black;
+        border-radius: 20px;
+
+      
+    }
+    .btn{
+        font-family: "Leckerli One", cursive;
+        margin:0px 9px;
+        background-color: black;
+        color:honeydew;
+        padding: 4px 14px;
+        border: 2px solid rgb(255, 252, 252);
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .container{
+        border: 4px solid white;
+        margin: 116px 99px;
+        padding: 60px;
+        width: 35%;
+        border-radius: 30px;
+    }
+    .container h1{
+        color: rgb(255, 255, 255);
+        
+        text-align: center;
+        font-size: 40px;
+    }
+    .form-group input{
+       
+      font-family: "Concert One", sans-serif;
+        font-size: 25px;
+        
+        text-align: center;
+        width: 508px;
+        display: block;
+        padding: 1px;
+        border: 2px solid black;
+        margin:16px auto;
+        border-radius: 8px;
+
+    }
+    .container button{
+        display: block;
+        width: 64%;
+        margin: 30px auto;
+    }
+    .container button:hover{
+        background-color:navajowhite;
+        
+    }
+
+    
+  </style>
+  <body>
+    <header class="header">
+      <!-- Left box for logo -->
+      <div class="left">
+        <img src="/img/dumbbell.png" alt="">
+        <div>
+            Muaaz Fitnees
+        </div>
+    </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Join the Best Gym of Karachi Now</h1>
+        <form  class="form-group" action="noaction.java">
+            <input type="text" name="" placeholder="Enter You Name">
+            <input type="text" name="" placeholder="Enter You Age">
+            <input type="text" name="" placeholder="Enter You Gender">
+            <input type="text" name="" placeholder="Enter You Locality">
+            <input type="text" name="" placeholder="Enter You Phone Number">
+            <input type="text" name="" placeholder="Enter You Email ID">
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+  </body>
+</html>
